@@ -34,7 +34,7 @@ return (
     <h2 className="title"><i className="fa fa-cloud"></i>Application météo #HothiaDIAO</h2>
     <div className="search-form">
     <input type="text"  value={city} onChange={(e) => setCity(e.target.value)} placeholder="Entrer le nom de la ville"/>
-    <button type="button" onClick={() => getData()}>Rechercher</button>
+    <button type="button" onClick={() => getData()}>Envoyer</button>
     </div>
     {loading ? (
     <div className="loader-container">
