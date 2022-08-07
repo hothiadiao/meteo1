@@ -1,5 +1,6 @@
-{
-  "name": "meteo",
+{ 
+  "homepage": "htpps://hothiadiao.github.io/meteo1",
+  "name": "meteo1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,6 +43,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.9",
-    "eslint-plugin-react": "^7.30.1"
+    "eslint-plugin-react": "^7.30.1",
+    "gh-pages": "^4.0.0"
   }
 }
